@@ -328,38 +328,4 @@ Inbound
 Traffic coming into the server/resource.
 Outbound
 Traffic leaving the server/resource.
-9. Important Questions for Viva / Internship
-What is an IP address?
-A numerical address used to identify a device or network interface and enable network communication.
-What is DNS?
-A system that translates domain names into IP addresses.
-What is a port?
-A logical endpoint used by network services for communication.
 
-What is port 22 used for?
-SSH, commonly used for secure remote administration of Linux servers.
-What is port 80 used for?
-HTTP web traffic.
-What is port 443 used for?
-HTTPS web traffic.
-What is a firewall?
-A system that controls network traffic using security rules.
-What is an AWS Security Group?
-A virtual firewall that controls network traffic for resources such as EC2 instances.
-What is inbound traffic?
-Traffic entering a server or resource.
-What is outbound traffic?
-Traffic leaving a server or resource.
-Why should unnecessary ports not be exposed?
-Reducing exposed services reduces the server's attack surface and unnecessary network access.
-10. Quick Revision
-    • IP = address of the host/interface.
-    • DNS = name-to-IP resolution.
-    • Port = service endpoint.
-    • Firewall = traffic control.
-    • Security Group = AWS virtual firewall.
-    • SSH = TCP 22.
-    • HTTP = TCP 80.
-    • HTTPS = TCP 443.
-    • Use restricted sources for administration whenever practical.
-Do not expose database services publicly unless there is a specific, controlled requirement.
