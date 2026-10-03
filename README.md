@@ -60,7 +60,7 @@ sudo systemctl status nginx
 
 The Nginx service was successfully running.
 
-5. Tested Connectivity
+### 5. Tested Connectivity
 
 Opened the EC2 public IP address in a web browser and verified that the Nginx welcome page was displayed.
 
